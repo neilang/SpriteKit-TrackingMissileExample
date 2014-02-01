@@ -64,7 +64,7 @@
 		281D1933189C7A0C007BA7CF /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
 		281D1934189C7A0C007BA7CF /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		281D1935189C7A0C007BA7CF /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
-		281D1939189C963E007BA7CF /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = stars.sks; path = ../stars.sks; sourceTree = "<group>"; };
+		281D1939189C963E007BA7CF /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = stars.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
