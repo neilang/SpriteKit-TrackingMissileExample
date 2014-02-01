@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface NAMyScene : SKScene
-
+@interface NAMyScene : SKScene<SKPhysicsContactDelegate>
+@property SKSpriteNode *ship;
 @end

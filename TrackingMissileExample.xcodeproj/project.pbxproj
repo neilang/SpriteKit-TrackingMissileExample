@@ -21,6 +21,10 @@
 		281D1920189C75D1007BA7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D18F9189C75D1007BA7CF /* Cocoa.framework */; };
 		281D1928189C75D1007BA7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281D1926189C75D1007BA7CF /* InfoPlist.strings */; };
 		281D192A189C75D1007BA7CF /* TrackingMissileExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D1929189C75D1007BA7CF /* TrackingMissileExampleTests.m */; };
+		281D1936189C7A0C007BA7CF /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1933189C7A0C007BA7CF /* explosion.sks */; };
+		281D1937189C7A0C007BA7CF /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 281D1934189C7A0C007BA7CF /* spark.png */; };
+		281D1938189C7A0C007BA7CF /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1935189C7A0C007BA7CF /* missile.sks */; };
+		281D193B189C963E007BA7CF /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1939189C963E007BA7CF /* stars.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		281D1925189C75D1007BA7CF /* TrackingMissileExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMissileExampleTests-Info.plist"; sourceTree = "<group>"; };
 		281D1927189C75D1007BA7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281D1929189C75D1007BA7CF /* TrackingMissileExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingMissileExampleTests.m; sourceTree = "<group>"; };
+		281D1933189C7A0C007BA7CF /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		281D1934189C7A0C007BA7CF /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		281D1935189C7A0C007BA7CF /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
+		281D1939189C963E007BA7CF /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = stars.sks; path = ../stars.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 		281D1901189C75D1007BA7CF /* TrackingMissileExample */ = {
 			isa = PBXGroup;
 			children = (
+				281D1939189C963E007BA7CF /* stars.sks */,
+				281D1933189C7A0C007BA7CF /* explosion.sks */,
+				281D1934189C7A0C007BA7CF /* spark.png */,
+				281D1935189C7A0C007BA7CF /* missile.sks */,
 				281D190D189C75D1007BA7CF /* MainMenu.xib */,
 				281D190F189C75D1007BA7CF /* NAMyScene.m */,
 				281D1911189C75D1007BA7CF /* NAMyScene.h */,
@@ -242,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281D1938189C7A0C007BA7CF /* missile.sks in Resources */,
+				281D193B189C963E007BA7CF /* stars.sks in Resources */,
 				281D1916189C75D1007BA7CF /* Spaceship.png in Resources */,
 				281D1918189C75D1007BA7CF /* Images.xcassets in Resources */,
 				281D1906189C75D1007BA7CF /* InfoPlist.strings in Resources */,
+				281D1937189C7A0C007BA7CF /* spark.png in Resources */,
+				281D1936189C7A0C007BA7CF /* explosion.sks in Resources */,
 				281D190C189C75D1007BA7CF /* Credits.rtf in Resources */,
 				281D190E189C75D1007BA7CF /* MainMenu.xib in Resources */,
 			);
