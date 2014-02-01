@@ -17,25 +17,11 @@
 		281D1913189C75D1007BA7CF /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D1912189C75D1007BA7CF /* NAAppDelegate.m */; };
 		281D1916189C75D1007BA7CF /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 281D1915189C75D1007BA7CF /* Spaceship.png */; };
 		281D1918189C75D1007BA7CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281D1917189C75D1007BA7CF /* Images.xcassets */; };
-		281D191F189C75D1007BA7CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D191E189C75D1007BA7CF /* XCTest.framework */; };
-		281D1920189C75D1007BA7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D18F9189C75D1007BA7CF /* Cocoa.framework */; };
-		281D1928189C75D1007BA7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281D1926189C75D1007BA7CF /* InfoPlist.strings */; };
-		281D192A189C75D1007BA7CF /* TrackingMissileExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D1929189C75D1007BA7CF /* TrackingMissileExampleTests.m */; };
 		281D1936189C7A0C007BA7CF /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1933189C7A0C007BA7CF /* explosion.sks */; };
 		281D1937189C7A0C007BA7CF /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 281D1934189C7A0C007BA7CF /* spark.png */; };
 		281D1938189C7A0C007BA7CF /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1935189C7A0C007BA7CF /* missile.sks */; };
 		281D193B189C963E007BA7CF /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 281D1939189C963E007BA7CF /* stars.sks */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		281D1921189C75D1007BA7CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 281D18EE189C75D1007BA7CF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 281D18F5189C75D1007BA7CF;
-			remoteInfo = TrackingMissileExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		281D18F6189C75D1007BA7CF /* TrackingMissileExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingMissileExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,11 +42,7 @@
 		281D1914189C75D1007BA7CF /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAppDelegate.h; sourceTree = "<group>"; };
 		281D1915189C75D1007BA7CF /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		281D1917189C75D1007BA7CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		281D191D189C75D1007BA7CF /* TrackingMissileExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingMissileExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281D191E189C75D1007BA7CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		281D1925189C75D1007BA7CF /* TrackingMissileExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMissileExampleTests-Info.plist"; sourceTree = "<group>"; };
-		281D1927189C75D1007BA7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		281D1929189C75D1007BA7CF /* TrackingMissileExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingMissileExampleTests.m; sourceTree = "<group>"; };
 		281D1933189C7A0C007BA7CF /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
 		281D1934189C7A0C007BA7CF /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		281D1935189C7A0C007BA7CF /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
@@ -77,15 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281D191A189C75D1007BA7CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281D1920189C75D1007BA7CF /* Cocoa.framework in Frameworks */,
-				281D191F189C75D1007BA7CF /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				281D1901189C75D1007BA7CF /* TrackingMissileExample */,
-				281D1923189C75D1007BA7CF /* TrackingMissileExampleTests */,
 				281D18F8189C75D1007BA7CF /* Frameworks */,
 				281D18F7189C75D1007BA7CF /* Products */,
 			);
@@ -103,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				281D18F6189C75D1007BA7CF /* TrackingMissileExample.app */,
-				281D191D189C75D1007BA7CF /* TrackingMissileExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,24 +131,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		281D1923189C75D1007BA7CF /* TrackingMissileExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				281D1929189C75D1007BA7CF /* TrackingMissileExampleTests.m */,
-				281D1924189C75D1007BA7CF /* Supporting Files */,
-			);
-			path = TrackingMissileExampleTests;
-			sourceTree = "<group>";
-		};
-		281D1924189C75D1007BA7CF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				281D1925189C75D1007BA7CF /* TrackingMissileExampleTests-Info.plist */,
-				281D1926189C75D1007BA7CF /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,24 +151,6 @@
 			productReference = 281D18F6189C75D1007BA7CF /* TrackingMissileExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		281D191C189C75D1007BA7CF /* TrackingMissileExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 281D1930189C75D1007BA7CF /* Build configuration list for PBXNativeTarget "TrackingMissileExampleTests" */;
-			buildPhases = (
-				281D1919189C75D1007BA7CF /* Sources */,
-				281D191A189C75D1007BA7CF /* Frameworks */,
-				281D191B189C75D1007BA7CF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				281D1922189C75D1007BA7CF /* PBXTargetDependency */,
-			);
-			name = TrackingMissileExampleTests;
-			productName = TrackingMissileExampleTests;
-			productReference = 281D191D189C75D1007BA7CF /* TrackingMissileExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,11 +160,6 @@
 				CLASSPREFIX = NA;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Neil Ang";
-				TargetAttributes = {
-					281D191C189C75D1007BA7CF = {
-						TestTargetID = 281D18F5189C75D1007BA7CF;
-					};
-				};
 			};
 			buildConfigurationList = 281D18F1189C75D1007BA7CF /* Build configuration list for PBXProject "TrackingMissileExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -244,7 +174,6 @@
 			projectRoot = "";
 			targets = (
 				281D18F5189C75D1007BA7CF /* TrackingMissileExample */,
-				281D191C189C75D1007BA7CF /* TrackingMissileExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,14 +195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281D191B189C75D1007BA7CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281D1928189C75D1007BA7CF /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,23 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281D1919189C75D1007BA7CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281D192A189C75D1007BA7CF /* TrackingMissileExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		281D1922189C75D1007BA7CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 281D18F5189C75D1007BA7CF /* TrackingMissileExample */;
-			targetProxy = 281D1921189C75D1007BA7CF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		281D1904189C75D1007BA7CF /* InfoPlist.strings */ = {
@@ -320,14 +225,6 @@
 				281D190B189C75D1007BA7CF /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		281D1926189C75D1007BA7CF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				281D1927189C75D1007BA7CF /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,46 +326,6 @@
 			};
 			name = Release;
 		};
-		281D1931189C75D1007BA7CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingMissileExample.app/Contents/MacOS/TrackingMissileExample";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TrackingMissileExample/TrackingMissileExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TrackingMissileExampleTests/TrackingMissileExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		281D1932189C75D1007BA7CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingMissileExample.app/Contents/MacOS/TrackingMissileExample";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TrackingMissileExample/TrackingMissileExample-Prefix.pch";
-				INFOPLIST_FILE = "TrackingMissileExampleTests/TrackingMissileExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,14 +343,6 @@
 			buildConfigurations = (
 				281D192E189C75D1007BA7CF /* Debug */,
 				281D192F189C75D1007BA7CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		281D1930189C75D1007BA7CF /* Build configuration list for PBXNativeTarget "TrackingMissileExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				281D1931189C75D1007BA7CF /* Debug */,
-				281D1932189C75D1007BA7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
