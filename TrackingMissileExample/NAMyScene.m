@@ -146,8 +146,8 @@ typedef NS_OPTIONS(NSInteger, NACategory)
     
     assert(target);
     
-    float x = missile.position.x - target.position.x;
-    float y = target.position.y  - missile.position.y;
+    CGFloat x = missile.position.x - target.position.x;
+    CGFloat y = target.position.y  - missile.position.y;
     CGFloat direction = atan2f(x, y) + M_PI_2;
     
     CGFloat velocityX = NA_MISSILE_THRUST * cos(direction);
